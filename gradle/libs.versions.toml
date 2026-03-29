@@ -1,7 +1,7 @@
 [versions]
 activityCompose = "1.10.0"
 gradle = "9.0.1"
-navigationSafeArgsGradlePlugin = "2.9.6"
+navigationSafeArgsGradlePlugin = "2.9.7"
 reownBom = "1.4.9"
 androidGradlePlugin = "9.0.1"
 coreVersion = "4.9.0"
