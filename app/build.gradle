@@ -364,7 +364,7 @@ dependencies {
     implementation libs.zxing.core
 
     // QR code generator
-    implementation("io.github.alexzhirkevich:qrose:1.0.1")
+    implementation("io.github.alexzhirkevich:qrose:1.1.2")
 
     // WorkManager Kotlin
     def work_version = "2.10.0"
