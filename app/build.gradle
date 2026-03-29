@@ -11,8 +11,6 @@ plugins {
     id 'kotlin-parcelize'
     id 'com.google.devtools.ksp'
     id 'org.jetbrains.kotlin.plugin.compose' version('2.2.10')
-    id 'com.google.firebase.crashlytics'
-    id 'com.google.gms.google-services'
     id 'org.jetbrains.kotlin.plugin.serialization'
     id 'androidx.navigation.safeargs.kotlin'
 }
@@ -483,9 +481,6 @@ dependencies {
 
     api 'com.jaredrummler:android-shell:1.0.0'
     api 'com.offbynull.portmapper:portmapper:2.0.5'
-
-    implementation libs.google.play.app.update
-    implementation libs.google.play.app.update.ktx
 
     implementation libs.tangem.sdk
 }
