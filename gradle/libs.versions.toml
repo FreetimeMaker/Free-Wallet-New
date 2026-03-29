@@ -33,7 +33,7 @@ kotlinx-coroutines-test = "1.10.2"
 room = "2.7.2"
 paging = "3.3.5"
 javax-inject = "1"
-appcompat = "1.7.0"
+appcompat = "1.7.1"
 timber = "5.0.1"
 
 tonKotlin = "0.5.0" # updated for ktor 3.x compatibility
