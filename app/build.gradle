@@ -291,7 +291,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     implementation libs.androidx.fragment.ktx
     implementation "androidx.preference:preference-ktx:1.2.1"
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0"
     implementation libs.bitcoinj
 
     //Splash screen
