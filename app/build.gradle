@@ -238,7 +238,7 @@ android {
         c.resolutionStrategy.dependencySubstitution {
             bcprovVersionsToRedirect.each { moduleId ->
                 def (name, version) = moduleId.split(':')
-                substitute module("org.bouncycastle:$name:$version") using module("org.bouncycastle:bcprov-jdk15to18:1.80")
+                substitute module("org.bouncycastle:$name:$version") using module("org.bouncycastle:bcprov-jdk15to18:1.83")
             }
 
             substitute module('com.google.protobuf:protobuf-java:3.6.1') using module('com.google.protobuf:protobuf-javalite:3.21.1')
